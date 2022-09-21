@@ -48,7 +48,7 @@ export function useImage(): UseImageInterface {
       const url = fullImageUrl.split(`${magentoBaseUrl}`);
 
       const regex = /cache\/(.*?)\//gm;
-      return url[1].replace(regex, '');
+      // return url[1].replace(regex, '');
     }
 
     return fullImageUrl;
